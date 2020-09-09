@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="addpro.css">
+    </head>
+    <body style="background-color: ivory">
+           <form action="list.html" method="get">
+            <div style="background-color: burlywood;">
+                <h2><b>ADMIN PANEL</b><button id="log" style="margin-left:1000; margin-bottom:5;">LOG OUT</button></h2>
+            </div>
+            <b><a href="#" onClick="disp()" style="background-color:aquamarine;">ADD NEW PRODUCT</a> </b> 
+            <br> 
+
+            <div style="background-color:lightyellow">
+            <table id="list" class="u-full-width" style="display:none">
+                <h4 style="margin-top: 10;"><b>YOUR PRODUCTS LIST</b></h4>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Image</th>
+                        <th></th>
+                    </tr>
+                </thead>
+               <tbody> </tbody> 
+            </table>
+            </div>
+        </form>
+   <script src="list.js"></script>
+   
+    </body>
+</html>
